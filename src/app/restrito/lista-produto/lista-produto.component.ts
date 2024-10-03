@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { Subscriber } from 'rxjs';
+import { LoginService } from 'src/app/login.service';
 import { Produto } from 'src/app/models/Produto.model';
 import { ProdutoService } from 'src/app/produto.service';
 
@@ -13,10 +14,11 @@ export class ListaProdutoComponent implements OnInit{
 
   public produtos: Produto[] = [];
 
-  constructor(private _produtoService: ProdutoService, private _router: Router) {}
+  constructor(private _produtoService: ProdutoService, private _router: Router, private _loginService:LoginService) {}
 
   ngOnInit(): void {
     this.listarProdutos();
+    this._loginService.SetMostraMenu(false)
   }
 
   listarProdutos(): void {

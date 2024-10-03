@@ -15,11 +15,32 @@
       "preco": 350
     },
     {
-      "id": "3",
-      "produto": "jogo3",
-      "descricao": "Descrição do jogo 3",
+      "id": 0,
+      "produto": "Jogo4",
+      "descricao": "descrição Jogo4",
+      "foto": "jogo4.PNG",
+      "preco": 175
+    },
+    {
+      "id": 0,
+      "produto": "Jogo4",
+      "descricao": "descrição Jogo4",
+      "foto": "jogo1.PNG",
+      "preco": 230
+    },
+    {
+      "id": "5",
+      "produto": "jogo Modificado",
+      "descricao": "Descrição do jogo Modificado",
+      "foto": "jogo2.PNG",
+      "preco": 160
+    },
+    {
+      "id": 0,
+      "produto": "Jogo Modificado",
+      "descricao": "Descrição jogo Modificado",
       "foto": "jogo3.PNG",
-      "preco": 260
+      "preco": 900
     }
   ]
 }
