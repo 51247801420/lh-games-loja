@@ -10,8 +10,8 @@ export class LoginService {
 
   constructor() { }
 
-  login(Usuario: string, senha: string):void {
-    if (Usuario =="aluno" && senha=="1234") {
+  login(usuario: string, senha: string):void {
+    if (usuario =="aluno" && senha=="1234") {
       localStorage.setItem('token', 'qwer1234');
       this.mostrarMenu.next(false);
     } else {
